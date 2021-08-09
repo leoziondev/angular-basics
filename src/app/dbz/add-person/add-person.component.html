@@ -1,0 +1,12 @@
+<p>add-person works!</p>
+<h3>Adicionar</h3>
+
+<form (ngSubmit)="add()" autocomplete="off">
+
+  <input type="text" name="name" placeholder="Nome" [(ngModel)]="newPerson.name">
+
+  <input type="number" name="power" placeholder="Poder" [(ngModel)]="newPerson.power">
+
+  <button type="submit">Adicionar</button>
+
+</form>

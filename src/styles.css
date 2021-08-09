@@ -23,7 +23,9 @@ button {
   cursor: pointer;
   margin-right: 5px;
   margin-left: 5px;
-  padding: 5px 10px;
+  padding: .5rem 1rem;
+  font-weight: 600;
+  letter-spacing: .05rem;
 }
 
 button:hover {
@@ -34,10 +36,27 @@ button:focus{
   outline: none;
 }
 
+input {
+  display: block;
+  margin: 5px;
+  padding: .5rem;
+  border: 1px solid #acb5c0;
+  border-radius: 5px;
+}
+
 .p-1 {
   padding: 1px;
 }
 
 .mb-20 {
   margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex-grow: 1;
+  margin-right: 10px;
 }
